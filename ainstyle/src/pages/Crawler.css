@@ -1,0 +1,85 @@
+.CrawlerBody {
+  text-align: center;
+  padding: 20px;
+  max-width: 1920px;
+  width: 100%;
+  margin-top: 50px; /* 이미지 아래로 내리기 */
+}
+
+.CrawlerTitle {
+  max-width: 1920px;
+  width: 100%;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: -70px;
+}
+
+.CrawlerFrame {
+  max-width: 1920px;
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap; /* 래핑을 추가하여 이미지가 줄 바꿈되도록 설정 */
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 20px; /* 이미지 간의 간격 추가 */
+  border: 2px solid black; /* 검은색 테두리 추가 */
+  padding: 10px; /* 내부 여백 추가 */
+  box-sizing: border-box; /* 테두리와 패딩을 포함하여 박스 크기 계산 */
+}
+
+.ImageContainer {
+  width: 320px; /* 이미지 크기 조정 */
+  height: 480px; /* 이미지 크기 조정 */
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+}
+
+.ImageContainer img {
+  width: 100%; /* 컨테이너의 너비에 맞게 이미지 크기 조정 */
+  height: auto; /* 이미지 비율을 유지하며 높이 자동 조절 */
+  max-width: 320px; /* 이미지의 최대 너비 설정 */
+  max-height: 480px; /* 이미지의 최대 높이 설정 */
+}
+
+.CrawlerControls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SelectButton {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.RefreshButton {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.RefreshButton:hover {
+  background-color: #45a049;
+}
+
+.SelectButton:hover {
+  background-color: #45a049;
+}
+
+
+.ImageContainer.selected {
+  border: 5px solid blue; /* 선택된 이미지를 표시하는 테두리 */
+}

@@ -1,0 +1,59 @@
+.share-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .share-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .share-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .share-form-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .share-form-container form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .share-form-container form input,
+  .share-form-container form textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  .share-form-container form textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .share-form-container form button {
+    padding: 10px 15px;
+    background-color: #0077ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .share-form-container form button:hover {
+    background-color: #005bb5;
+  }
+ 

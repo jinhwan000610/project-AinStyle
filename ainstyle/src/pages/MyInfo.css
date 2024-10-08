@@ -1,0 +1,103 @@
+.myInfoContainer {
+   gap: 20px;
+   
+ }
+ .InfoHead {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+
+ }
+ .userInfoHeader {
+   font-size: 20px;
+   color: #7f7f7f;
+   margin-left : 5px;
+   margin-bottom: 20px;
+   font-weight: 700;
+ }
+ 
+ .userInfoBody {
+   margin: 5px;
+   border: 1px solid #7f7f7f5a;
+ }
+ 
+ .userInfoRow {
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid #7f7f7f5a;
+ }
+ 
+ label {
+   text-align: left;
+   background-color: #ebebeb75;
+   padding: 20px;
+   width: 150px;
+ }
+ 
+ span {
+   margin-left: 20px;
+ }
+ 
+ input {
+   margin-left: 20px;
+   padding : 10px;
+ }
+ 
+ .inlineButton {
+   font-size: 15px;
+   background-color: #ffffff6d;
+   padding : 10px;
+   margin-left: 20px;
+   width: 100px;
+   cursor: pointer;
+   transition: all 0.1s, ease;
+   border: 1px solid #8989897b;
+   
+ }
+
+ .inlineButton button:hover {
+   background-color: black;
+   color:#7f7f7f;
+   cursor: pointer;
+   box-shadow:
+      7px -7px 20px 0px #fff9,
+      -4px -4px 5px 0px #fff9,
+      7px 7px 20px 0px #0002,
+      4px 4px 5px 0px #0001;
+ }
+ 
+ .userInfoFooter {
+   margin : 30px;
+   padding : 10px;
+   display: flex;
+   justify-content: center;
+ }
+
+ .userInfoFooter button {
+  
+  height: 50px;
+  width : 150px;
+  margin : 5px;
+  font-size: 15px;
+  font-weight: 550;
+  border-radius: 5;
+  justify-content: center;
+}
+
+.infoMod {
+  border: 1px solid #8989897b;
+  background-color: black;
+  color : white;
+}
+
+.cancel {
+  border: 1px solid #8989897b;
+  background-color: rgba(230, 230, 230, 0.523);
+  
+}
+
+.withDraw {
+  border: 1px solid #8989897b;
+  background-color: white;
+}

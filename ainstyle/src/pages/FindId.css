@@ -1,0 +1,82 @@
+.FindIdContainer {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+  }
+  
+  .FindIdTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .searchTypeContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .searchTypeContainer label {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  .FindIdForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .inputField {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  /* 각 타입별로 추가 스타일링 */
+  .nameInput {
+    height: 40px; /* 고정된 높이 */
+  }
+  
+  .emailInput {
+    height: 40px; /* 고정된 높이 */
+  }
+  
+  .phoneInput {
+    height: 40px; /* 고정된 높이 */
+  }
+  
+  .searchButton {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .searchButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .FindIdResult {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+  }

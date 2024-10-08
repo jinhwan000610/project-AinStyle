@@ -1,0 +1,83 @@
+.myPage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.Head {
+  padding-top: 40px;
+  font-size: 40px;
+}
+
+.clothe {
+  border-top: 2px solid #ccc;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.subTitle {
+  padding: 10px;
+  margin: 10px;
+  align-self: flex-start;
+}
+
+.search {
+  padding: 10px;
+  margin: 10px;
+  align-self: flex-end;
+  border: none;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  outline-color: #ccc;
+}
+.imageLine {
+   display: flex;
+   flex-wrap: wrap; /* 이미지가 한 줄에 5개씩 배치되도록 설정 */
+   justify-content: center; /* 이미지를 가운데 정렬 */
+   gap: 10px; /* 이미지 간격 조정 */
+ }
+ 
+ .img_Box {
+   height: auto;
+   width: 100%; /* 이미지의 너비 설정 */
+   min-width: 150px; /* 이미지의 최소 너비 설정 */
+   max-width: 20%; /* 이미지의 최대 너비 설정 */
+   margin: 10px; /* 이미지 간격 조정 */
+   border-radius: 5px;
+   border: 2px solid #f4f4f4;
+   
+
+ }
+ 
+ 
+
+.pagination {
+   display: flex;
+   list-style: none; /* 넘버링의 점 제거 */
+   padding: 0;
+   justify-content: center; /* 페이지 넘버링을 수평으로 정렬 */
+ }
+ 
+ .pagination li {
+   margin: 0 5px; /* 각 페이지 넘버링 사이의 간격 조정 */
+ }
+ 
+ .pagination li a {
+   text-decoration: none;
+   color: black;
+   padding: 5px 10px; /* 각 페이지 넘버링의 패딩 설정 */
+   border: 1px solid #ccc; /* 각 페이지 넘버링의 테두리 설정 */
+   border-radius: 5px; /* 각 페이지 넘버링의 테두리 둥글게 */
+ }
+ 
+ .pagination li a:hover {
+   background-color: #f4f4f4; /* 마우스 호버시 배경색 변경 */
+ }
+ 

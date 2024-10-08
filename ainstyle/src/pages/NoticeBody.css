@@ -1,0 +1,100 @@
+.NoticeBoard {
+  padding: 20px;
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 부모 요소의 자식들을 가운데 정렬 */
+}
+
+.NoticeTitle {
+  width: 100%;
+  max-width: 1920px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #170505e7;
+  justify-content: center;
+  margin-bottom: 40px; /* 제목과 테이블 사이에 여백 추가 */
+  margin-top: 40px;
+}
+
+.NoticeTable {
+  width: 1700px;
+  border-collapse: collapse;
+}
+
+.NoticeTable th,
+.NoticeTable td {
+  border: 1px solid #ddd;
+  padding: 14px;
+}
+
+/* 각 열의 너비 설정 */
+.colNo {
+  width: 4%; /* No. 열의 너비를 5%로 설정 */
+}
+
+.colTitle {
+  width: 82%; /* TITLE 열의 너비를 81%로 설정 */
+}
+
+.colAuthor {
+  width: 7%; /* Post by 열의 너비를 7%로 설정 */
+}
+
+.colDate {
+  width: 7%; /* DATE 열의 너비를 7%로 설정 */
+}
+
+.NoticeTable th {
+}
+
+
+.NoticeTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* 검색 필터 스타일링 */
+.SearchContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+  max-width: 1700px;
+}
+
+.SearchDate,
+.SearchSelect,
+.SearchInput {
+  margin: 0 7px;
+  padding: 5px;
+  font-size: 14px;
+  width: 150px;
+  box-sizing: border-box;
+}
+
+.SearchButton {
+  margin-left: 10px;
+  padding: 3px 13px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* 페이징 버튼 스타일링 */
+.Pagination {
+  margin-top: 20px;
+}
+
+.Pagination button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Pagination button.active {
+  font-weight: bold;
+  text-decoration: underline;
+}

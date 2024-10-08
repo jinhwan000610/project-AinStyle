@@ -1,0 +1,19 @@
+.StyleCard {
+    width: 1080px;
+    display: flex;
+    justify-content: center;
+}
+
+.style-card-row {
+    display: flex;
+}
+
+.style-card {
+    margin: 30px;
+    background-repeat: no-repeat;
+}
+
+.style-card img {
+    width: 200px;
+    height: 250px;
+}

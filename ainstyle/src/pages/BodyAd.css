@@ -1,0 +1,42 @@
+.Bodyad {
+    width: 100%;
+    max-width: 1920px;
+    height: 555px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 120px;
+    display: inline-flex;
+    margin-top: 20px;
+  }
+  
+  .Youtube {
+    width: 100%;
+    max-width: 1000px;
+    height: 555px;
+    position: relative;
+  }
+  
+  .Webad {
+    width: 100%;
+    max-width: 800px;
+    height: 555px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+  }
+  
+  .Adimage {
+    width: 100%;
+    max-width: 800px;
+    flex: 1 1 0;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+  }
+  
+  .Ad {
+    width: 100%;
+    max-width: 800px;
+    height: 555px;
+  }  

@@ -1,0 +1,50 @@
+.heartStyle{
+   width : 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+  
+}
+
+.heartWrapper{
+   border-top: 2px solid #ccc;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+.heartHeader {
+   margin: 10px;
+   align-self: flex-start;
+}
+
+.more{
+   cursor: pointer;
+   margin: 10px;
+   align-self: flex-end;
+}
+.more:hover {
+   color : gray;
+}
+
+.imageLine{
+
+   display:flex;
+   flex-wrap: nowrap;
+}
+
+.img_Box{
+   height:auto;
+   width : 100%;
+   min-width: 150px;
+   max-width: 300px;
+   margin : 50px;
+   display: inline-block;
+   justify-content: left;
+   border-radius: 5px;
+   border: 2px solid #f4f4f4; 
+}
+

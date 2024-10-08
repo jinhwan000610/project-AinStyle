@@ -1,0 +1,60 @@
+.BodyBest {
+  width: 100%;
+  max-width: 1920px;
+  height: 650px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.BestText {
+  color: black;
+  font-size: 50px;
+  font-family: 'NanumBarunGothicOTF';
+  font-weight: 400;
+  line-height: 90px;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+}
+
+.BestStyle {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  gap: 150px;
+}
+
+.Best {
+  min-width: 300px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  transition: transform 1s ease-in-out;
+  margin-left: 60px;
+}
+
+.BestImage {
+  width: 300px;
+  height: 400px;
+  border-radius: 80px;
+  object-fit: cover;
+  margin-left: -60px;
+}
+
+.Hashtag {
+  width: 85px;
+  height: 30px;
+  text-align: center;
+  color: #565555;
+  font-size: 15px;
+  font-family: 'NanumBarunGothicOTF';
+  font-weight: 400;
+  word-wrap: break-word;
+}

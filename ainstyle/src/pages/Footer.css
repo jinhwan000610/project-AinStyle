@@ -1,0 +1,85 @@
+.Footer {
+  width: 100%;
+  max-width: 1920px;
+  height: 240px;
+  background: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 530px;
+  padding: 67px 47px 47px 252px;
+}
+
+.Site, .Customer {
+  width: 100%;
+  max-width: 430px;
+  height: 120px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Title {
+  color: black;
+  font-size: 20px;
+  font-family: 'NanumBarunGothic';
+  font-weight: 600;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.Team {
+  color: #888888;
+  font-size: 18px;
+  font-family: 'NanumBarunGothic';
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 10px;
+  word-wrap: break-word;
+}
+
+.Info {
+  color: #888888;
+  font-size: 18px;
+  font-family: 'NanumBarunGothic';
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 25px;
+  word-wrap: break-word;
+}
+
+.Link {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 10px; /* 원하는 여백 값으로 수정하세요 */
+}
+
+.Links {
+  width: 330px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 60px; /* 원하는 여백 값으로 수정하세요 */
+}
+
+.Links a {
+  color: #444444;
+  font-size: 18px;
+  font-family: 'NanumBarunGothic';
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.Customer .Title {
+  font-weight: 600;
+}

@@ -1,0 +1,18 @@
+.myPage {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 20px;
+   padding-bottom: 10px; /* 이전에 20px로 설정되어 있었습니다 */
+}
+
+.Head {
+   padding-top: 40px;
+   font-size: 40px;
+}
+
+.userInfoHeader {
+   font-size : 20px;
+}

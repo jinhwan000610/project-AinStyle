@@ -1,0 +1,43 @@
+.StylingButton {
+    width: 75px;
+    height: 75px;
+    position: fixed; /* 페이지에 고정합니다. */
+    bottom: 100px; /* 하단에서 20px의 거리를 유지합니다. */
+    right: 30px; /* 오른쪽에서 20px의 거리를 유지합니다. */
+    cursor: pointer;
+    z-index: 9999;
+  }
+
+
+  .Background {
+    width: 70px;
+    height: 70px;
+    left: 2px;
+    top: 2px;
+    position: absolute;
+    background: #EEE5DC;
+    border-radius: 20px;
+  }
+
+  .Aistyling1 {
+    width: 60px;
+    height: 60px;
+    left: 7px;
+    top: 0;
+    position: absolute;
+  }
+  
+  .AiStyling {
+    width: 75px;
+    height: 12px;
+    left: 0;
+    top: 50px;
+    position: absolute;
+    text-align: center;
+    color: #C19276;
+    font-size: 12px;
+    font-family: 'NanumBarunGothicOTF';
+    font-weight: 400;
+    line-height: 10px;
+    word-wrap: break-word;
+  }
