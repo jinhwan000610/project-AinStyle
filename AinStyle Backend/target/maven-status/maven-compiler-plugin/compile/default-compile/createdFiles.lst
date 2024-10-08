@@ -1,0 +1,8 @@
+com\createainstyle\ainstyle_backend\controller\CrawlingController.class
+com\createainstyle\ainstyle_backend\controller\HomeController.class
+com\createainstyle\ainstyle_backend\AinStyleBackendApplication.class
+com\createainstyle\ainstyle_backend\controller\StyleController.class
+com\createainstyle\ainstyle_backend\model\Style.class
+com\createainstyle\ainstyle_backend\service\StyleService.class
+com\createainstyle\ainstyle_backend\service\CrawlingService.class
+com\createainstyle\ainstyle_backend\repository\StyleRepository.class

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.createainstyle.ainstyle_backend.AinStyleBackendApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.293 s -- in com.createainstyle.ainstyle_backend.AinStyleBackendApplicationTests
